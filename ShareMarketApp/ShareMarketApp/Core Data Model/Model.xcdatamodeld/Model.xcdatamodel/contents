@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Stocks" representedClassName="Stocks" syncable="YES" codeGenerationType="class">
+        <attribute name="change" optional="YES" attributeType="String"/>
+        <attribute name="changePercent" optional="YES" attributeType="String"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="high" optional="YES" attributeType="String"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="String"/>
+        <attribute name="low" optional="YES" attributeType="String"/>
+        <attribute name="marketClose" optional="YES" attributeType="String"/>
+        <attribute name="marketOpen" optional="YES" attributeType="String"/>
+        <attribute name="matchScore" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="open" optional="YES" attributeType="String"/>
+        <attribute name="previousClose" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="region" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+        <attribute name="timezone" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="volume" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Stocks" positionX="-63" positionY="-18" width="128" height="314"/>
+    </elements>
+</model>
